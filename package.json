@@ -1,8 +1,11 @@
 {
-  "name": "practice",
+  "name": "NODE_API",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "serverjs",
+  "engines": {
+    "node": "?=14.20.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",

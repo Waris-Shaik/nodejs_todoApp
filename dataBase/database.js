@@ -6,8 +6,8 @@ function connectDB() {
     .connect(process.env.MONGO_URI, {
       dbName: "backendapi",
     })
-    .then(() => {
-      console.log("DateBase Connected");
+    .then((c) => {
+      console.log(`DateBase Connected with ${c.connection.host}`);
     })
     .catch((e) => {
       alert("error in db");
