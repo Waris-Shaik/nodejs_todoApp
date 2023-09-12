@@ -12,7 +12,7 @@ function connectDB() {
     .catch((e) => {
       alert("error in db");
       console.log("error is", e);
-    });
+    }); 
 }
 
 module.exports = connectDB;
