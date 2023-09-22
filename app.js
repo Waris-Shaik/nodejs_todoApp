@@ -9,7 +9,7 @@ const cors = require("cors");
 
 dotenv.config({
   path: "./dataBase/config.env",
-});
+}); 
 
 // making cors active
 app.use(
